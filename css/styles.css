@@ -88,10 +88,10 @@ span {
 
 /* Header */
 .header {
+  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 .header__container {
-  padding: 24px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
