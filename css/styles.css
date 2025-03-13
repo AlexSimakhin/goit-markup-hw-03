@@ -89,7 +89,6 @@ span {
 /* Header */
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0 24px;
 }
 .header__container {
   display: flex;
@@ -98,7 +97,6 @@ span {
 }
 .nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .nav__logo {
@@ -120,7 +118,9 @@ span {
   align-items: center;
   gap: 40px;
 }
-.nav__item {}
+.nav__item {
+  padding: 24px 0;
+}
 .nav__link {
   font-weight: 500;
   color: #2e2f42;
@@ -202,8 +202,6 @@ span {
 }
 .benefits__item {
   width: calc((100% - 72px) / 4);
-  display: flex;
-  flex-direction: column;
 }
 .benefits__subtitle {
   margin-bottom: 8px;
@@ -229,10 +227,7 @@ span {
   padding: 120px 0;
   background-color: #f4f4fd;
 }
-.team__container {
-  display: flex;
-  flex-direction: column;
-}
+.team__container {}
 .team__title {
   margin-bottom: 72px;
 }
@@ -249,10 +244,6 @@ span {
 .team__image {}
 .team__profile {
   padding: 32px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .team__profile-name {
   margin-bottom: 8px;
@@ -270,10 +261,7 @@ span {
 .portfolio {
   padding: 120px 0;
 }
-.portfolio__container {
-  display: flex;
-  flex-direction: column;
-}
+.portfolio__container {}
 .portfolio__title {
   margin-bottom: 72px;
 }
@@ -288,8 +276,6 @@ span {
 .portfolio__image {}
 .portfolio__case {
   padding: 32px 16px;
-  display: flex;
-  flex-direction: column;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
@@ -308,10 +294,7 @@ span {
   padding: 100px 0;
   background-color: #2e2f42;
 }
-.footer__container {
-  display: flex;
-  flex-direction: column;
-}
+.footer__container {}
 .footer__logo {
   display: inline-block;
   margin-bottom: 16px;
