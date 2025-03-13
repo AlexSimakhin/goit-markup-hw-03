@@ -91,6 +91,7 @@ span {
   border-bottom: 1px solid #e7e9fc;
 }
 .header__container {
+  padding: 24px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -118,10 +119,9 @@ span {
   align-items: center;
   gap: 40px;
 }
-.nav__item {
-  padding: 24px 0;
-}
+.nav__item {}
 .nav__link {
+  padding: 24px 0;
   font-weight: 500;
   color: #2e2f42;
 }
