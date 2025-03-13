@@ -89,7 +89,7 @@ span {
 /* Header */
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
+  padding: 24px 0 24px;
 }
 .header__container {
   display: flex;
@@ -100,9 +100,9 @@ span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 76px;
 }
 .nav__logo {
+  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -175,6 +175,7 @@ span {
   color: #fff;
 }
 .hero__button {
+  min-width: 169px;
   padding: 16px 32px;
   font-weight: 500;
   line-height: 1.5;
@@ -203,9 +204,9 @@ span {
   width: calc((100% - 72px) / 4);
   display: flex;
   flex-direction: column;
-  gap: 8px;
 }
 .benefits__subtitle {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -231,9 +232,10 @@ span {
 .team__container {
   display: flex;
   flex-direction: column;
-  gap: 72px;
 }
-.team__title {}
+.team__title {
+  margin-bottom: 72px;
+}
 .team__list {
   display: flex;
   gap: 24px;
@@ -251,9 +253,9 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 8px;
 }
 .team__profile-name {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -271,9 +273,10 @@ span {
 .portfolio__container {
   display: flex;
   flex-direction: column;
-  gap: 72px;
 }
-.portfolio__title {}
+.portfolio__title {
+  margin-bottom: 72px;
+}
 .portfolio__list {
   display: flex;
   flex-wrap: wrap;
@@ -287,11 +290,11 @@ span {
   padding: 32px 16px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
 .portfolio__case-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -308,9 +311,10 @@ span {
 .footer__container {
   display: flex;
   flex-direction: column;
-  gap: 16px;
 }
 .footer__logo {
+  display: inline-block;
+  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
